@@ -27,6 +27,11 @@ class CreateHouses extends Migration
                 'type'       => 'VARCHAR',
                 'constraint' => '255',
             ],
+            'type' => [
+                'type'       => 'VARCHAR',
+                'constraint' => '50',
+                'default'    => 'rent',
+            ],
             'price' => [
                 'type'       => 'DECIMAL',
                 'constraint' => '10,2',
